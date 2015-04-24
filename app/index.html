@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" ng-app="aolHome">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+    <link href="bower_components/angular-carousel/dist/angular-carousel.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/aolHome.css">
+  </head>
+
+  <body ng-controller="MainCtrl">
+    <div class="ground">
+      <md-toolbar class="md-tall md-primary" layout="row" layout-align="center center">
+        <div layout-padding>
+          <img ng-src="images/aolLogo.png" max-height="auto" max-width="100%">
+        </div>
+      </md-toolbar>
+
+      <div layout="row" layout-align="center center">
+        <h1 class="mainTitle">Itanagar Ashram</h1>
+      </div>
+
+      <hr>
+      <md-content>
+        <section class="ground" layout="row" layout-align="center center">
+          <md-button class="md-raised md-warn" ng-click="go('/')">Home</md-button>
+          <md-button class="md-raised md-warn" ng-click="go('/places')">Places</md-button>
+          <md-button class="md-raised md-warn" ng-click="go('/location')">Location</md-button>
+          <md-button class="md-raised md-warn" ng-click="go('/')">Events</md-button>
+        </section>
+      </md-content>
+
+      <div ng-view></div>
+
+    </div>
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/angular-material/angular-material.min.js"></script>
+    <script src="bower_components/angular-material-icons/angular-material-icons.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.min.js"></script>
+    <script src="bower_components/angular-carousel/dist/angular-carousel.min.js"></script>
+    <script src="bower_components/lodash/lodash.min.js"></script>
+    <script src="js/aolHome.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<div layout="column" layout-align="center center" layout-margin>
+  <md-content flex class="md-whiteframe-z5">
+    <md-card ng-repeat="image in images">
+      <img ng-src="{{image.image}}">
+      <md-card-content>
+        <h2>{{image.name}}</h2>
+        <p>{{image.desc}}</p>
+      </md-card-content>
+    </md-card>
+  </md-content>
+</div>
