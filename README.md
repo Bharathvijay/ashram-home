@@ -1,13 +1,11 @@
 ashram-home
 ===========
 
+A fork of [Stylish Portfolio] (https://github.com/IronSummitMedia/startbootstrap-stylish-portfolio).
 
-## Development Environment Setup
+## Contributon
 
-  1. Clone the repo and cd into it.
-  2. Install all the dependenies with `npm install`.
-  3. Run the project with `node server.js`.
-
+Found a bug or think something could have been done better? Send a PR.
 
 ## LICENSE
 

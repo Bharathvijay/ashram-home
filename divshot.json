@@ -1,0 +1,6 @@
+{
+  "name": "ashram-home",
+  "root": "./",
+  "clean_urls": true,
+  "error_page": "y"
+}
