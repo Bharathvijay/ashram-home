@@ -16,14 +16,6 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.logo {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  margin-right: 100px;
-  margin-top: 20px;
-}
-
 .text-vertical-center {
     display: table-cell;
     text-align: center;
